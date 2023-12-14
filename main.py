@@ -3,8 +3,6 @@ import datetime
 from threading import Thread
 from time import sleep
 
-
-
 def main(page: ft.Page):
     page.title = "Task Finder"
     date = datetime.datetime.today()
